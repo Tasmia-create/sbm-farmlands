@@ -500,6 +500,78 @@ button {
   margin-bottom: 1.25rem;
 }
 
+/* Founder & Managing Director Section */
+.founder-section {
+  margin-top: 4rem;
+  padding-top: 3.5rem;
+  border-top: 1px solid var(--color-sand);
+  text-align: center;
+}
+
+.founder-header {
+  margin-bottom: 2rem;
+}
+
+.founder-title {
+  color: var(--color-forest);
+  margin-top: 0.25rem;
+}
+
+.founder-img-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.founder-img {
+  width: 100%;
+  height: auto;
+  max-width: 780px;
+  display: block;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-elevated);
+  border: 1px solid rgba(200, 167, 85, 0.3);
+}
+
+.founder-bio {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.founder-subtitle {
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  color: var(--color-forest);
+  margin-bottom: 1.25rem;
+}
+
+.founder-text {
+  color: var(--color-text-muted);
+  font-size: 1.025rem;
+  line-height: 1.7;
+  margin-bottom: 1.15rem;
+}
+
+.founder-text.body-lead {
+  font-size: clamp(1.05rem, 1.5vw, 1.18rem);
+  color: var(--color-forest);
+  font-weight: 500;
+  line-height: 1.65;
+}
+
+.founder-tagline {
+  margin-top: 2rem;
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--color-gold-dark);
+  letter-spacing: 0.04em;
+  padding: 0.6rem 2rem;
+  border-top: 1px solid var(--color-gold);
+  border-bottom: 1px solid var(--color-gold);
+}
+
 .pillars-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1205,6 +1277,21 @@ button {
   .footer-top {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .founder-section {
+    margin-top: 2.5rem;
+    padding-top: 2.25rem;
+  }
+
+  .founder-img-wrap {
+    margin-bottom: 1.75rem;
+  }
+
+  .founder-tagline {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.25rem;
   }
 }
 
